@@ -452,7 +452,7 @@ std::error_code FileCOFF::doParse() {
   // ** COFFer debug dump **
   std::unique_ptr<Writer> YAML;
   YAML = createWriterYAML(_ctx);
-  YAML.get()->writeFile(*this, "C:\\COFFerInputDump.txt"); // ** FIXME use command line arg
+  YAML.get()->writeFile(*this, ".\\COFFerInputDump.txt");
 
   // Check for /SAFESEH.
   if (_ctx.requireSEH() && !isCompatibleWithSEH()) {
