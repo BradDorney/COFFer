@@ -6,7 +6,7 @@
 // License. See LICENSE.TXT for details.
 //
 // ** This is the original, unmodified version of ReaderCOFF.cpp from LLD. It is
-// provided here purely for comparison the modified version. **
+// provided here purely for comparison with the modified version. **
 //
 //===----------------------------------------------------------------------===//
 
